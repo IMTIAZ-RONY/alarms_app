@@ -16,6 +16,8 @@
         android:label="alarms_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!-- NotificationOnKillService for alarm warning notifications -->
+        <service android:name="com.gdelataillade.alarm.services.NotificationOnKillService" />
         <activity
             android:showWhenLocked="true"
             android:turnScreenOn="true"
