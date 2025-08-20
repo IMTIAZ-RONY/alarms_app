@@ -1,14 +1,10 @@
 import 'package:alarms_app/src/presentation/providers/reminder_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'dart:async';
-import 'dart:io';
 import 'package:alarm/alarm.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'src/data/repositories/reminder_repository_impl.dart';
 import 'src/domain/usecases/get_reminders_usecase.dart';
 import 'src/domain/usecases/set_reminder_usecase.dart';
-//import 'src/presentation/providers/reminder_provider.dart';
 import 'src/presentation/screens/home_screen.dart';
 
 void main() async {
